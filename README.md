@@ -21,3 +21,9 @@ In this example we have the LiferayArticleImporterPipeline and call the rest api
 ```
 r = requests.post("http://localhost:8080/api/jsonws/journal.journalarticle/add-article", auth=('test@liferay.com', 'password'), data=payload, headers=headers)
 ```
+
+## Run
+To run this scrapy you can use:
+```
+scrapy crawl tendernedspider
+```
